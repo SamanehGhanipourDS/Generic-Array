@@ -1,0 +1,9 @@
+import java.lang.reflect.Array;
+
+public class Stack<T> {
+    public void stack(Class<T> clazz ,int capacity)
+    {
+        array =((T[])Array.newInstance(clazz,capacity));
+    }
+    private  T[] array;
+}
